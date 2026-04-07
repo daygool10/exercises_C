@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main (){
+int main(){
 
-    int n, a, b, c;
+ int n, a, b, c;
     int troca;
 
     printf("digite os valores 1, 2 ou 3\n");
@@ -31,6 +31,7 @@ int main (){
             b = c;
             c = troca;
         }
+        printf("ordem crescente: %d, %d, %d", a, b, c);
     }
 
     if(n == 2){
@@ -49,6 +50,7 @@ int main (){
             b = c;
             c = troca;
         }
+        printf("ordem decrescente: %d, %d, %d", a, b, c);
     }
     if(n == 3){
         if(a > b && a > c){
@@ -61,10 +63,8 @@ int main (){
             c = b;
             b = troca;
         }
+        printf("Maior no meio: %d, %d, %d", a, b, c);
+
     }
 
-    printf("%d, %d, %d", a, b, c);
-
-return 0;
 }
-
