@@ -11,7 +11,7 @@ int main (){
        proximo = a + b;
        a = b;
        b = proximo;
-       printf("%i\n", proximo);
+       printf("%i\n", a);
    }
 
    return 0;
